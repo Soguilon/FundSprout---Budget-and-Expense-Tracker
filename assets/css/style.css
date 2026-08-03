@@ -390,14 +390,16 @@ img { max-width: 100%; display: block; }
 .form-label .req { color: var(--expense-red); margin-left: 3px; }
 .form-control {
   width: 100%;
-  background: var(--glass);
+  background: var(--glass) !important;
   border: 1px solid var(--border);
   border-radius: var(--r-input);
   padding: 12px 14px;
-  color: var(--text);
+
+  color: var(--text) !important;
+  -webkit-text-fill-color: var(--text) !important;
+
   font-size: 14.5px;
   font-family: inherit;
-  transition: border-color var(--t-fast) var(--ease), box-shadow var(--t-fast) var(--ease), background var(--t-fast) var(--ease);
   min-height: 44px;
 }
 textarea.form-control { min-height: 80px; resize: vertical; }
