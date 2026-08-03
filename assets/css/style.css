@@ -747,3 +747,36 @@ table.data-table tbody tr:hover { background: var(--glass); }
 @media (max-width: 375px) {
   .grid-4, .grid-3, .grid-2 { grid-template-columns: 1fr; }
 }
+
+
+
+/* ==========================================================
+   Fix text colors in Dark Mode
+   ========================================================== */
+
+.summary-card .value,
+.card .value,
+.count-up,
+#cardBalance,
+#cardTodayAllowance,
+#cardTodayExpenses,
+#cardMoneySaved,
+#cardBudgetRemaining {
+    color: var(--text) !important;
+}
+
+.card {
+    color: var(--text);
+}
+
+.section-title {
+    color: var(--text);
+}
+
+.text-secondary {
+    color: var(--text-secondary) !important;
+}
+
+.text-tertiary {
+    color: var(--text-tertiary) !important;
+}
