@@ -17,14 +17,14 @@ const STAGE_DESCRIPTIONS = [
 ];
 
 const TYPE_PALETTE = {
-  Sprout:   { leaf: '#4ADE80', leafDark: '#16A34A', trunk: '#8B5E3C', flower: '#FACC15' },
-  Flora:    { leaf: '#34D399', leafDark: '#059669', trunk: '#7A9B57', flower: '#F9A8D4' },
-  Daisy:    { leaf: '#86EFAC', leafDark: '#22C55E', trunk: '#8B5E3C', flower: '#FEF08A' },
-  Minty:    { leaf: '#5EEAD4', leafDark: '#14B8A6', trunk: '#6B8E6B', flower: '#CCFBF1' },
-  Rosie:    { leaf: '#6EE7B7', leafDark: '#10B981', trunk: '#806040', flower: '#FDA4AF' },
-  Cherry:   { leaf: '#4ADE80', leafDark: '#15803D', trunk: '#7C4A32', flower: '#FB7185' },
-  Goldie:   { leaf: '#A3E635', leafDark: '#65A30D', trunk: '#8B6F47', flower: '#FDE047' },
-  Lemon:    { leaf: '#86EFAC', leafDark: '#22C55E', trunk: '#7A7040', flower: '#FACC15' }
+  Tree:      { leaf: '#22C55E', leafDark: '#16A34A', trunk: '#8B5E3C', flower: '#FBBF24' },
+  Flower:    { leaf: '#34D399', leafDark: '#10B981', trunk: '#7A9B57', flower: '#F472B6' },
+  Bonsai:    { leaf: '#4ADE80', leafDark: '#15803D', trunk: '#6B4226', flower: '#FDE68A' },
+  Fern:      { leaf: '#2DD4BF', leafDark: '#0D9488', trunk: '#5B7553', flower: '#A7F3D0' },
+  Succulent: { leaf: '#65D6AD', leafDark: '#0EA5A5', trunk: '#7A6A53', flower: '#FBCFE8' },
+  Cactus:    { leaf: '#4ADE80', leafDark: '#22C55E', trunk: '#6B8E23', flower: '#F87171' },
+  Bamboo:    { leaf: '#86EFAC', leafDark: '#22C55E', trunk: '#A3A847', flower: '#FDE047' },
+  Sunflower: { leaf: '#4ADE80', leafDark: '#16A34A', trunk: '#8B7536', flower: '#FBBF24' }
 };
 
 function stageInfo(stage) {
